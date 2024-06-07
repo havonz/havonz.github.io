@@ -1,0 +1,22 @@
+Package: com.1func.xxtouch.bigboss
+Version: 1.3-7
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Depends: firmware (>= 9.0), mobilesubstrate (>=0.9.5000)
+Conflicts: com.1func.xxtouch.ios
+Replaces: com.1func.xxtouch.bigboss, com.1func.xxtouch, com.1func.xxtouch.ios, com.xxtouch.ios, ch.xxtou.ios
+Architecture: iphoneos-arm
+Filename: debfiles/xxtouch_1.3-7.deb
+Size: 9527276
+Installed-Size: 32935
+MD5sum: de982ae6b326a5d14af87a19c1493579
+SHA256: 32a29bac853e4ad2188c795a68ed805ee4fb81481347e387c7a844efa661bee5
+Name: XXTouch
+Icon: file:///Applications/XXTouchApp.app/AppIcon29x29@2x.png
+Description: 可能是 iOS 平台最强的模拟触摸工具。
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: XXTouch Team <tech@xxtou.ch>
+Tag: purpose::extension
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xxtouchDp
+dev: havonz
+homepage: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=xxtouchDp

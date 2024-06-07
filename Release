@@ -1,0 +1,8 @@
+Origin: XXTouch
+Label: XXTouch
+Suite: stable
+Version: 1.0
+Codename: havonz.github.io
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: 
