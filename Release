@@ -6,3 +6,4 @@ Codename: havonz.github.io
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: XXTouch Unstable Release
+Icon: ./CydiaIcon.png
