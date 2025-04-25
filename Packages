@@ -691,3 +691,66 @@ Icon: file:///var/mobile/Media/1ferver/web/xxtouch.png
 Name: XXTouch
 Sponsor: XXTouch Team <https://xxtouch.app>
 
+Package: app.xxtouch.ios
+Version: 1.3.8-20250425140004
+Architecture: iphoneos-arm
+Maintainer: XXTouch Team
+Installed-Size: 54248
+Depends: firmware (>= 9.0), mobilesubstrate (>=0.9.5000)
+Replaces: app.xxtouch.ios, com.1func.xxtouch.bigboss, com.1func.xxtouch, com.1func.xxtouch.ios, com.xxtouch.ios, ch.xxtou.ios
+Filename: ./debfiles/app.xxtouch.ios_1.3.8-20250425140004_iphoneos-arm.deb
+Size: 14618690
+MD5sum: 108a570e649c13ad7736a9ffa0c92cc1
+SHA1: a119d3a827b1d184242a088c0a539a9d630849a3
+SHA256: 74195eb4a2223cfc0c21eb5c928444989e0be51fc261a2ff68a251bc654011e8
+Section: Development
+Homepage: https://xxtouch.app
+Description: 可能是 iOS 平台最强的模拟触摸工具。
+Author: XXTouch Team
+Depiction: https://xxtouch.app
+Icon: file:///var/mobile/Media/1ferver/web/xxtouch.png
+Name: XXTouch
+Sponsor: XXTouch Team <https://xxtouch.app>
+
+Package: app.xxtouch.ios
+Version: 1.3.8-20250425140004
+Architecture: iphoneos-arm64e
+Maintainer: XXTouch Team
+Installed-Size: 54268
+Depends: firmware (>= 9.0), mobilesubstrate (>=0.9.5000)
+Replaces: app.xxtouch.ios, com.1func.xxtouch.bigboss, com.1func.xxtouch, com.1func.xxtouch.ios, com.xxtouch.ios, ch.xxtou.ios
+Filename: ./debfiles/app.xxtouch.ios_1.3.8-20250425140004_iphoneos-arm64e.deb
+Size: 14622852
+MD5sum: 4e896ae0a0f5b636e76069aa0beb130a
+SHA1: 82ef2d317f47582510e3861d6c80a8f36da1de58
+SHA256: bd0b1a1c58fb94dd1e39368bd0dd54f47cdbf59a546a27cb046d9b3ae993d390
+Section: Development
+Homepage: https://xxtouch.app
+Description: 可能是 iOS 平台最强的模拟触摸工具。
+Author: XXTouch Team
+Depiction: https://xxtouch.app
+Icon: file:///var/mobile/Media/1ferver/web/xxtouch.png
+Name: XXTouch
+Sponsor: XXTouch Team <https://xxtouch.app>
+
+Package: app.xxtouch.ios
+Version: 1.3.8-20250425140004
+Architecture: iphoneos-arm64
+Maintainer: XXTouch Team
+Installed-Size: 54248
+Depends: firmware (>= 9.0), mobilesubstrate (>=0.9.5000)
+Replaces: app.xxtouch.ios, com.1func.xxtouch.bigboss, com.1func.xxtouch, com.1func.xxtouch.ios, com.xxtouch.ios, ch.xxtou.ios
+Filename: ./debfiles/app.xxtouch.ios_1.3.8-20250425140004_iphoneos-arm64.deb
+Size: 14615816
+MD5sum: 83e60ea7003d6ce259999463a93bbdff
+SHA1: 2b307c12c2a451629ec28d34439b93482e1b05c3
+SHA256: 5858ddf6a41f5f0e7997964dadf379d19fb5162646de6a0175b238a7a7d2f355
+Section: Development
+Homepage: https://xxtouch.app
+Description: 可能是 iOS 平台最强的模拟触摸工具。
+Author: XXTouch Team
+Depiction: https://xxtouch.app
+Icon: file:///var/mobile/Media/1ferver/web/xxtouch.png
+Name: XXTouch
+Sponsor: XXTouch Team <https://xxtouch.app>
+
