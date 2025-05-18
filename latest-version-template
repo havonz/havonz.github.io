@@ -1,0 +1,7 @@
+{
+    "app.xxtouch.ios": {
+        "latest": "{{VERSION}}",
+        "description": "Fixed an issue where the script would not terminate the processes it created upon exiting.\nFixed an issue where the VSCode plugin could not send scripts to run in the Roothide version.\nAdded an automatic script migration mechanism when switching between TrollStore and Jailbreak editions.\nOptimized coroutine scheduling logic.",
+        "description-zh": "修正脚本结束时不会结束其创建的进程的问题\n修正 roothide 版使用 VSCode 插件无法发送运行脚本的问题\n加入巨魔版与越狱版切换自动迁移脚本机制\n优化协程调度逻辑"
+    }
+}

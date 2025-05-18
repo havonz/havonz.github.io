@@ -10,6 +10,29 @@
             document.getElementById('cydia-add').href = 'cydia://url/https://cydia.saurik.com/api/share#?source=' + window.location.origin;
             document.getElementById('sileo-add').href = 'sileo://source/' + window.location.origin;
             document.getElementById('zebra-add').href = 'zbra://sources/add/' + window.location.origin;
+            async function refresh_links() {
+                try {
+                    const response = await fetch('api/latest-version');
+                    if (!response.ok) throw new Error('Network Error');
+                    const data = await response.json();
+                    const xxt_info = data["app.xxtouch.ios"];
+                    document.getElementById('download-rootful-deb').href = 'debfiles/app.xxtouch.ios_' + xxt_info.latest + '_iphoneos-arm.deb';
+                    document.getElementById('download-rootless-deb').href = 'debfiles/app.xxtouch.ios_' + xxt_info.latest + '_iphoneos-arm64.deb';
+                    document.getElementById('download-roothide-deb').href = 'debfiles/app.xxtouch.ios_' + xxt_info.latest + '_iphoneos-arm64e.deb';
+                    document.getElementById('download-tipa').href = 'tipafiles/app.xxtouch.ios_' + xxt_info.latest + '.tipa';
+                    const params = new URLSearchParams(window.location.search);
+                    const action = params.get('action');
+                    if (action == 'click-download-tipa') {
+                        window.location.href = 'tipafiles/app.xxtouch.ios_' + xxt_info.latest + '.tipa';;
+                    }
+                    return data;
+                } catch (err) {
+                    throw err;
+                }
+            }
+            refresh_links().then((data) => {
+                console.log(data)
+            });
         });
     </script>
     <h4><a id="cydia-add" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://xxtouch.app/">Add repo to Cydia</a></h4>
@@ -18,10 +41,10 @@
     <h1>Activating</h1>
     <h4><a href="xxt://download/?url=https://xxtouch.app/XXTAuthFetcher.xpa&path=XXTAuthFetcher.xpa">Activate XXT</a></h4>
     <h1>Latest Packages</h1>
-    <p><a href="debfiles/app.xxtouch.ios_1.3.8-20250514193012_iphoneos-arm.deb">Download Rootful DEB</a></p>
-    <p><a href="debfiles/app.xxtouch.ios_1.3.8-20250514193012_iphoneos-arm64.deb">Download Rootless DEB</a></p>
-    <p><a href="debfiles/app.xxtouch.ios_1.3.8-20250514193012_iphoneos-arm64e.deb">Download Roothide DEB</a></p>
-    <p><a href="tipafiles/app.xxtouch.ios_1.3.8-20250514193012.tipa">Download .TIPA</a></p>
+    <p><a id="download-rootful-deb" href="#">Download Rootful DEB</a></p>
+    <p><a id="download-rootless-deb" href="#">Download Rootless DEB</a></p>
+    <p><a id="download-roothide-deb" href="#">Download Roothide DEB</a></p>
+    <p><a id="download-tipa" href="#">Download .TIPA</a></p>
 </body>
 
 </html>
